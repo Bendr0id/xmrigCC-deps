@@ -2,7 +2,7 @@
 
 This repository contains all needed (prebuild) dependencies to build XMRigCC on Windows with TLS support.
 
-If you are using an older version of Visual Studio 2017 and having compiler issues, make sure you use release-v1 instead of the latest.
+If you are using an older version of Visual Studio 2017 and having compiler issues, make sure you use release-v2 or release-v1 instead of the latest version.
 
 ## Versions:
 
@@ -11,7 +11,7 @@ If you are using an older version of Visual Studio 2017 and having compiler issu
 
 ### Thanks xmrig for compilation (https://github.com/xmrig/xmrig-deps/releases):
 - libuv 1.19.0 (gcc/MSVC2015)
-- libuv 1.20.3 (MSVC2017)
+- libuv 1.23.0 (MSVC2017)
 - libuv 1.15.0 (gcc/x86)
 - libmicrohttpd 0.9.59 (MSVC2017)
 - libmicrohttpd 0.9.58 (gcc/MSVC2015)
@@ -23,14 +23,14 @@ If you are using an older version of Visual Studio 2017 and having compiler issu
 
 ### SHA256 checksums:
 ```
-384f75fc9981abbf9004ad942293dab332e4ef3b17985d3657f78f613dcb194b  ./msvc2017/libuv/x86/lib/libuv.lib
-63315e76a8504e602e8aa0fd56eddfd4644438ff0a9242a7743efe38b610ab1a  ./msvc2017/libuv/x64/lib/libuv.lib
+bff2660ec1b618a288f654037c766ec6f91f5fa736a0a64673ac1e46bf0f106a  ./msvc2017/libuv/x86/lib/libuv.lib
+25c7ab6300b1e00ac42ff4347076fe370f1da27812ded4c508be3f645a552648  ./msvc2017/libuv/x64/lib/libuv.lib
 95e1fdc36cdc9bf1af9246427715185b6d0325de46b90256db614a98f4da3542  ./msvc2017/openssl/x86/lib/libssl.lib
 41b90deaf833b6cde9339c988135413dffb19bba6a4bcecc57d19f9b74cfdf02  ./msvc2017/openssl/x86/lib/libcrypto.lib
 ae4db081206a6f9f14fb77a57992be7e78ef2ebc6a8ca9dc8d07d1c0f3979b27  ./msvc2017/openssl/x64/lib/libssl.lib
 1caa7654a1897f3ab440a5842ebc9444664d14f4165692e4ee1521eb780c42a8  ./msvc2017/openssl/x64/lib/libcrypto.lib
-3a3aa234123dd810b930ba9853305622fc70e80290d23be644816af2de0b367a  ./msvc2017/libmicrohttpd/x86/lib/libmicrohttpd.lib
-30c80b95a5693345bf4f2d2d373a5a234b9886a7bef241f65f9ca660bcd7d505  ./msvc2017/libmicrohttpd/x64/lib/libmicrohttpd.lib
+9058646b70a66a99a537685756ce99fc413b27279ca92f642f00bafc21f55903  ./msvc2017/libmicrohttpd/x86/lib/libmicrohttpd.lib
+1035e63a1b12c0182d87053f256e1bbaef4e9c5e635d5b8aa427f44260767061  ./msvc2017/libmicrohttpd/x64/lib/libmicrohttpd.lib
 eb113d721dca46a334aa92121745eb7e01940bd36997e873e38f8fce3c7e2ae4  ./msvc2015/libuv/x86/lib/libuv.lib
 c0c7d1575d7af0891af904daa247238c28a4e3c54e43e339ce4634ed3c156f09  ./msvc2015/libuv/x64/lib/libuv.lib
 cb5cce163a4139030b03b2f062e0159fe18bb633a35858aecb826a6d31c7c0b9  ./msvc2015/openssl/x86/lib/libssl.lib
