@@ -6,7 +6,7 @@ If you are using an older version of Visual Studio 2017 and having compiler issu
 
 ## Versions:
 
-- OpenSSL v1.0.2m (mingw/gcc)
+- OpenSSL v1.1.1a (mingw/gcc)
 
 
 ### Thanks xmrig for compilation (https://github.com/xmrig/xmrig-deps/releases):
